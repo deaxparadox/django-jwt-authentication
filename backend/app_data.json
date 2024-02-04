@@ -1,0 +1,298 @@
+[
+    {
+        "model": "app.question",
+        "pk": 1,
+        "fields": {
+            "name": "What is your name?"
+        }
+    },
+    {
+        "model": "app.question",
+        "pk": 2,
+        "fields": {
+            "name": "what is your location?"
+        }
+    },
+    {
+        "model": "app.question",
+        "pk": 3,
+        "fields": {
+            "name": "what is your location in India?"
+        }
+    },
+    {
+        "model": "app.question",
+        "pk": 4,
+        "fields": {
+            "name": "what is your lastname?"
+        }
+    },
+    {
+        "model": "app.question",
+        "pk": 5,
+        "fields": {
+            "name": "what is your firstname?"
+        }
+    },
+    {
+        "model": "app.question",
+        "pk": 6,
+        "fields": {
+            "name": "Name of football player with most goals in his career?"
+        }
+    },
+    {
+        "model": "app.question",
+        "pk": 7,
+        "fields": {
+            "name": "Question from api?"
+        }
+    },
+    {
+        "model": "app.question",
+        "pk": 8,
+        "fields": {
+            "name": "Question from api?"
+        }
+    },
+    {
+        "model": "app.question",
+        "pk": 9,
+        "fields": {
+            "name": "Question from api?"
+        }
+    },
+    {
+        "model": "app.question",
+        "pk": 10,
+        "fields": {
+            "name": "Question from api?"
+        }
+    },
+    {
+        "model": "app.option",
+        "pk": 1,
+        "fields": {
+            "name": "a",
+            "votes": 0,
+            "question": 7
+        }
+    },
+    {
+        "model": "app.option",
+        "pk": 2,
+        "fields": {
+            "name": "b",
+            "votes": 0,
+            "question": 7
+        }
+    },
+    {
+        "model": "app.option",
+        "pk": 3,
+        "fields": {
+            "name": "c",
+            "votes": 0,
+            "question": 7
+        }
+    },
+    {
+        "model": "app.option",
+        "pk": 4,
+        "fields": {
+            "name": "a",
+            "votes": 0,
+            "question": 8
+        }
+    },
+    {
+        "model": "app.option",
+        "pk": 5,
+        "fields": {
+            "name": "b",
+            "votes": 0,
+            "question": 8
+        }
+    },
+    {
+        "model": "app.option",
+        "pk": 6,
+        "fields": {
+            "name": "c",
+            "votes": 0,
+            "question": 8
+        }
+    },
+    {
+        "model": "app.option",
+        "pk": 7,
+        "fields": {
+            "name": "a",
+            "votes": 0,
+            "question": 9
+        }
+    },
+    {
+        "model": "app.option",
+        "pk": 8,
+        "fields": {
+            "name": "b",
+            "votes": 0,
+            "question": 9
+        }
+    },
+    {
+        "model": "app.option",
+        "pk": 9,
+        "fields": {
+            "name": "c",
+            "votes": 0,
+            "question": 9
+        }
+    },
+    {
+        "model": "app.option",
+        "pk": 10,
+        "fields": {
+            "name": "d",
+            "votes": 0,
+            "question": 9
+        }
+    },
+    {
+        "model": "app.option",
+        "pk": 11,
+        "fields": {
+            "name": "a",
+            "votes": 0,
+            "question": 10
+        }
+    },
+    {
+        "model": "app.option",
+        "pk": 12,
+        "fields": {
+            "name": "b",
+            "votes": 0,
+            "question": 10
+        }
+    },
+    {
+        "model": "app.option",
+        "pk": 13,
+        "fields": {
+            "name": "c",
+            "votes": 0,
+            "question": 10
+        }
+    },
+    {
+        "model": "app.option",
+        "pk": 14,
+        "fields": {
+            "name": "d",
+            "votes": 0,
+            "question": 10
+        }
+    },
+    {
+        "model": "app.poll",
+        "pk": 1,
+        "fields": {
+            "question": 1,
+            "created": "2024-02-04T21:05:41.387Z",
+            "updated": "2024-02-04T21:05:41.387Z",
+            "description": null
+        }
+    },
+    {
+        "model": "app.poll",
+        "pk": 2,
+        "fields": {
+            "question": 2,
+            "created": "2024-02-04T21:06:56.625Z",
+            "updated": "2024-02-04T21:06:56.625Z",
+            "description": null
+        }
+    },
+    {
+        "model": "app.poll",
+        "pk": 3,
+        "fields": {
+            "question": 3,
+            "created": "2024-02-04T21:08:18.154Z",
+            "updated": "2024-02-04T21:08:18.154Z",
+            "description": null
+        }
+    },
+    {
+        "model": "app.poll",
+        "pk": 4,
+        "fields": {
+            "question": 4,
+            "created": "2024-02-04T21:09:13.651Z",
+            "updated": "2024-02-04T21:09:13.651Z",
+            "description": null
+        }
+    },
+    {
+        "model": "app.poll",
+        "pk": 5,
+        "fields": {
+            "question": 5,
+            "created": "2024-02-04T21:10:43.530Z",
+            "updated": "2024-02-04T21:10:43.530Z",
+            "description": null
+        }
+    },
+    {
+        "model": "app.poll",
+        "pk": 6,
+        "fields": {
+            "question": 6,
+            "created": "2024-02-04T21:34:56.147Z",
+            "updated": "2024-02-04T21:34:56.147Z",
+            "description": null
+        }
+    },
+    {
+        "model": "app.poll",
+        "pk": 7,
+        "fields": {
+            "question": 7,
+            "created": "2024-02-04T21:56:33.600Z",
+            "updated": "2024-02-04T21:56:33.600Z",
+            "description": null
+        }
+    },
+    {
+        "model": "app.poll",
+        "pk": 8,
+        "fields": {
+            "question": 8,
+            "created": "2024-02-04T21:58:47.054Z",
+            "updated": "2024-02-04T21:58:47.054Z",
+            "description": null
+        }
+    },
+    {
+        "model": "app.poll",
+        "pk": 9,
+        "fields": {
+            "question": 9,
+            "created": "2024-02-04T21:59:26.771Z",
+            "updated": "2024-02-04T21:59:26.771Z",
+            "description": null
+        }
+    },
+    {
+        "model": "app.poll",
+        "pk": 10,
+        "fields": {
+            "question": 10,
+            "created": "2024-02-04T21:59:34.948Z",
+            "updated": "2024-02-04T21:59:34.948Z",
+            "description": null
+        }
+    }
+]
