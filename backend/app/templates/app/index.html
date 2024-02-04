@@ -1,0 +1,23 @@
+{% extends 'app/_base.html' %}
+{% block title %}Django JWT Authentication{% endblock title %}
+{% block body %}
+<ul id="navbar">
+    <li class="navbar-item">
+        <h1>Django JWT Authentication</h1>
+    </li>
+    <li id="auth-button" class="navbar-item">
+        Login
+    </li>
+</ul>
+
+<div class="ws-buttons">
+    <button type="button" id="ws-connect">Connect</button>
+    <button type="button" id="ws-disconnect">Disconnect</button>
+</div>
+
+<div class="simple-form">
+    <label for="write-message">Message:</label><br>
+    <input type="text" name="write-message" id="write-message">
+    <button type="button" id="send-message">Send</button>
+</div>
+{% endblock body %}
