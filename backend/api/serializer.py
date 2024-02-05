@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from app.models import Question, Poll, Option
 
-class QuestionCreate(serializers.Serializer):
+class QuestionCreateSerializer(serializers.Serializer):
     question = serializers.CharField()
     option1 = serializers.CharField()
     option2 = serializers.CharField()
@@ -24,5 +24,7 @@ class QuestionCreate(serializers.Serializer):
         return instance
     
     
-class Question(serializers.ModelField):
-    ...
+class QuestionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Question
+        fields = "__all__"
